@@ -1,5 +1,11 @@
-import "./App.css";
-
+import "./styles/App.css";
+import { Barra, Cuerpo, PiePagina } from "./components";
 export default function App() {
-  return (<></>);
+  return (
+    <>
+      <Barra />
+      <Cuerpo />
+      <PiePagina />
+    </>
+  );
 }

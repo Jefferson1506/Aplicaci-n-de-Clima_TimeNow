@@ -1,0 +1,29 @@
+.NavStyle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 15dvw;
+
+}
+
+.Nav2{
+    background-color: rgb(140, 0, 255);
+    height: 100px;
+}
+
+
+.Nav3{
+    background-color: rgb(162, 5, 37);
+    height: 100px;
+}
+
+
+@media only screen and (min-width : 600px) {
+  .Nav2{
+    background-color: brown;
+    font-size: 2em;
+  }
+
+}
+
